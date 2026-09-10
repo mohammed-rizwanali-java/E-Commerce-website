@@ -175,7 +175,8 @@ Deploy using Docker and cloud services
 
 👨‍💻 Author
 
-Parthiban
+Mohammed Rizwan Ali
 
-GitHub:
-https://github.com/parthiban1716/Ecommerce_Website
+
+
+
