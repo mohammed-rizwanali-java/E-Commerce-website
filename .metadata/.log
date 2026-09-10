@@ -1,0 +1,2778 @@
+!SESSION 2026-02-26 13:11:55.573 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data G:\ecommerce-app
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 13:12:01.449
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 13:12:04.947
+!MESSAGE Logback config file: G:\ecommerce-app\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-26 13:12:17.843
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 13:12:17.974
+!MESSAGE [C4E] booting
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 13:12:18.903
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:12:25.838
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 13:12:25.844
+!MESSAGE [C4E] EdgeDataDir: G:\ecommerce-app\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:12:26.820
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 13:12:28.209
+!MESSAGE [C4E] Conversation persistence: G:/ecommerce-app/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 13:12:28.380
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 13:12:28.755
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 13:12:29.120
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:61612/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 13:12:33.314
+!MESSAGE [C4E] Workspace labels: 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-26 13:12:43.481
+!MESSAGE The POM for com.jspiders:employee-app:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-26 13:12:50.274
+!MESSAGE The POM for com.jspiders:employee-app:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 13:13:27.284
+!MESSAGE Cannot read properties of null (reading 'scrollWidth')
+!STACK 0
+org.eclipse.swt.SWTException: Cannot read properties of null (reading 'scrollWidth')
+	at org.eclipse.swt.browser.Edge.evaluate(Edge.java:908)
+	at org.eclipse.swt.browser.WebBrowser.evaluate(WebBrowser.java:405)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:665)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:614)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.safeEvaluate(FocusableBrowserInformationControl.java:128)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$0(FocusableBrowserInformationControl.java:95)
+	at org.eclipse.swt.browser.ProgressListener$2.completed(ProgressListener.java:97)
+	at org.eclipse.swt.browser.Edge.lambda$45(Edge.java:1109)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:15:00.463
+!MESSAGE [Info]	[fetchCompletions] Request c91667c3-fd19-42c4-8e8c-1bf01d24961a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 994.2177000000083ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:15:00.571
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:15:00.572
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:15:00.573
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:18:08.453
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:18:08.453
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:18:08.454
+!MESSAGE [Info]	[fetchCompletions] Request 273bd22d-8cff-4013-93fa-00289a346824 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 807.7592999999761ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:18:08.455
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:44.847
+!MESSAGE [Info]	[fetchCompletions] Request 1a50177d-ff93-438c-bd32-054220b26c73 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 655.609199999948ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:44.909
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:44.927
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:44.941
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:55.145
+!MESSAGE [Info]	[fetchCompletions] Request 7b18bae9-3ba2-4091-952c-2e1e50c668cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.40139999997336ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:55.221
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:55.222
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:21:55.222
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:02.040
+!MESSAGE [Info]	[fetchCompletions] Request 1bb4e68e-7ea3-46f0-9e37-a6ef11212384 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.34129999997094ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:02.130
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:02.131
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:02.131
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:03.343
+!MESSAGE [Info]	[fetchCompletions] Request 7a1d2855-224f-4a8f-ab8b-b67b4b60fa62 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.92929999995977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:03.352
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:03.353
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:03.353
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:07.200
+!MESSAGE [Info]	[fetchCompletions] Request 4c75a9bf-646f-41a3-ad40-30dfca26865e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.6169000000227ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:07.308
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:07.438
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:07.438
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:21.685
+!MESSAGE [Info]	[fetchCompletions] Request 9d9f90cf-d1c5-4913-832b-bfbb32bab694 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.43370000005234ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:21.786
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:21.787
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:21.788
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:32.329
+!MESSAGE [Info]	[fetchCompletions] Request 95de8060-43cf-4c2c-97b3-9152a5f9e7fc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 296.2994999999646ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:32.329
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:32.330
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:32.331
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:33.073
+!MESSAGE [Info]	[fetchCompletions] Request c8b2feb2-d52b-4f1c-aa3d-3e4450fcfe92 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 300.170599999954ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:33.155
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:33.155
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:22:33.165
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.267
+!MESSAGE [Info]	[fetchCompletions] Request 22b6afeb-5e06-434f-9410-ee42723e2dd2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 372.42209999996703ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.364
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.365
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.365
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.859
+!MESSAGE [Info]	[fetchCompletions] Request 2c9dc1d3-f527-4b98-856c-6bee5d1d8896 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.5983000000706ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.953
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.954
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:02.955
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:27.979
+!MESSAGE [Info]	[fetchCompletions] Request 87a45f52-a3f9-4fcf-aba1-df1373a9de8f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 308.82889999996405ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:28.062
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:28.062
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:23:28.063
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:01.807
+!MESSAGE [Info]	[fetchCompletions] Request a8fbf7a8-9b2f-4cd4-9287-205ee3c154bd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 296.8867999999784ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:01.815
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:01.816
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:01.816
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:14.379
+!MESSAGE [Info]	[fetchCompletions] Request ec026060-b7f6-4e1e-add2-7807ea44be31 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 320.5231999999378ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:14.514
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:14.515
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:25:14.515
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:26:16.353
+!MESSAGE [Info]	[fetchCompletions] Request 9dfd588e-668c-44cd-9374-bc58900e7f23 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.80650000006426ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:26:16.362
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:26:16.363
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:26:16.363
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:01.988
+!MESSAGE [Info]	[fetchCompletions] Request d61747f2-7d89-43c4-adf2-a81458969fa0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 308.86780000000726ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:01.993
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:01.994
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:02.062
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:12.487
+!MESSAGE [Info]	[fetchCompletions] Request 146df47d-2d12-45e0-b9f8-d8e5be41bf82 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 337.40079999994487ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:12.604
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:12.604
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:28:12.605
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:23.765
+!MESSAGE [Info]	[fetchCompletions] Request 73382e5e-e622-489a-a46f-5cdb882523f0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.10900000017136ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:23.916
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:23.916
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:23.917
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:26.757
+!MESSAGE [Info]	[fetchCompletions] Request c085f4b5-5319-425e-8075-257d42fb469b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 297.57010000012815ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:26.850
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:26.851
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:36:26.851
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:40:04.744
+!MESSAGE [Info]	[fetchCompletions] Request e73cef19-e782-4d8f-a1fc-714268dfaf35 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 752.25270000007ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:40:04.813
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:40:04.814
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 13:40:04.814
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 14:49:24.674
+!MESSAGE [C4E] Internal server stopped: Server@145f9ba3{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 14:49:24.686
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2026-02-26 15:19:31.851 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 15:19:40.120
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 15:19:48.910
+!MESSAGE Logback config file: G:\ecommerce-app\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 15:19:59.848
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-26 15:20:00.321
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 15:20:00.670
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 15:20:09.230
+!MESSAGE [C4E] EdgeDataDir: G:\ecommerce-app\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:20:09.239
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 15:20:10.884
+!MESSAGE [C4E] Conversation persistence: G:/ecommerce-app/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:20:10.912
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 15:20:11.039
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 15:20:11.781
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:56264/chat
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 15:20:14.215
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 15:20:15.981
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 15:20:20.871
+!MESSAGE [Error]	[lsp] Request copilot/models: FetchResponseError: HTTP 503 
+    at GV.fetchMetadata (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\conversation\modelMetadata.ts:204:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at GV.getMetadata (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\conversation\modelMetadata.ts:179:13)
+    at jV.getMetadata (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\conversation\modelMetadata.ts:289:42)
+    at handleCopilotModelsChecked (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\methods\copilotModels.ts:53:33)
+    at xr.messageHandler (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\service.ts:321:45) {
+  code: 'HTTP503'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 15:20:20.873
+!MESSAGE [Error]	[default] Failed to fetch models from CAPI { status: 503, statusText: '' }
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 15:20:35.760
+!MESSAGE [Error]	[default] Failed to fetch models from CAPI { status: 502, statusText: '' }
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 15:20:36.059
+!MESSAGE [Error]	[default] Failed to fetch agents from CAPI { status: 502, statusText: '' }
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-02-26 15:20:40.801
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-02-26 15:20:40.807
+!MESSAGE Thread that is running the IJobChangeListener: Output Stream Monitor for PID 10644 EcommerceApplication
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2655)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:120)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:709)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1409)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:698)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:281)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:276)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:826)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:171)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:168)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:256)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+All thread infos: 
+"main" prio=6 Id=1 BLOCKED on java.lang.Class@181d8899 owned by "Output Stream Monitor for PID 9428 EcommerceApplication" Id=83
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:794)
+	-  blocked on java.lang.Class@181d8899
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.computeName(ProcessConsole.java:343)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:626)
+	-  locked org.eclipse.debug.internal.ui.views.console.ProcessConsole@20110864
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.lambda$1(ProcessConsole.java:344)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$$Lambda/0x000001ff01fdbb08.run(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4217)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3330)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	...
+
+"Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.7/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.7/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.7/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@2a5d7192
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@2a5d7192
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.7/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.7/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.7/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=20 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d714143
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d714143
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.7/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+"Notification Thread" daemon prio=9 Id=21 RUNNABLE
+
+"Active Thread: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" prio=5 Id=30 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f7b3a77
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f7b3a77
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Framework Event Dispatcher: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" daemon prio=5 Id=32 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@5e771806
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@5e771806
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Start Level: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" daemon prio=5 Id=33 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@fe8a26a
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@fe8a26a
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Bundle File Closer" daemon prio=5 Id=35 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1f6723bb
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1f6723bb
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"SCR Component Actor" daemon prio=5 Id=36 WAITING on java.util.LinkedList@282b124d
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.LinkedList@282b124d
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Worker-JM" prio=5 Id=38 WAITING on java.util.ArrayList@5e752dbd
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.ArrayList@5e752dbd
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Worker-0: Process Console Input Job" prio=5 Id=39 WAITING on org.eclipse.ui.console.IOConsoleInputStream@3824b95d
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@3824b95d
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:925)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-1" prio=5 Id=40 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"EMF Reference Cleaner" daemon prio=5 Id=41 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eb1eff1
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eb1eff1
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"Gogo shell" prio=5 Id=44 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@195e2f5f
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@195e2f5f
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"JNA Cleaner" daemon prio=6 Id=47 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@42d9378
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@42d9378
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"Git Repository Closer" daemon prio=6 Id=49 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5b72e403
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5b72e403
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"logback-1" daemon prio=5 Id=50 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3add46fb
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3add46fb
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Java indexing" daemon prio=4 Id=52 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@5211b228
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@5211b228
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x000001ff01807500.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=53 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3a4f4d41
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3a4f4d41
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"ForkJoinPool.commonPool-worker-1" daemon prio=6 Id=55 TIMED_WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=56 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@26eb8e48
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@26eb8e48
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Worker-2" prio=5 Id=58 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-3: Process Console Input Job" prio=5 Id=59 WAITING on org.eclipse.ui.console.IOConsoleInputStream@7934f84f
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@7934f84f
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:925)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-4" prio=5 Id=60 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-5" prio=5 Id=61 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-6" prio=5 Id=62 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-7" prio=5 Id=63 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-8" prio=5 Id=64 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-9: Chat Internal Service" prio=5 Id=65 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3951976d
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3951976d
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at org.eclipse.jetty.util.thread.AutoLock$WithCondition.await(AutoLock.java:126)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.join(QueuedThreadPool.java:822)
+	...
+
+"Stop Language Server Task Processor" prio=6 Id=66 WAITING on java.util.TaskQueue@40de3aec
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.TaskQueue@40de3aec
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.7/java.util.TimerThread.mainLoop(Timer.java:537)
+	at java.base@21.0.7/java.util.TimerThread.run(Timer.java:516)
+
+"ForkJoinPool.commonPool-worker-2" daemon prio=6 Id=67 WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"pool-5-thread-1" prio=5 Id=68 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a3d6571
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a3d6571
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-6-thread-1" prio=5 Id=69 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@641514f9
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@641514f9
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-7-thread-1" prio=5 Id=70 TIMED_WAITING on java.io.PipedInputStream@514a1de9
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.io.PipedInputStream@514a1de9
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.io.PipedInputStream.read(PipedInputStream.java:332)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider.lambda$0(CopilotProcessStreamConnectionProvider.java:169)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider$$Lambda/0x000001ff01b1c9e8.run(Unknown Source)
+	at java.base@21.0.7/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base@21.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@36051d04
+
+"LS-com.genuitec.copilot4eclipse.copilot#listener-0" prio=5 Id=71 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:71)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider$1.read(CopilotProcessStreamConnectionProvider.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.ThreadPoolExecutor$Worker@22c99b84
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@60f24476
+
+"threadJobProcessorPoolSpawner" daemon prio=5 Id=73 WAITING on java.util.concurrent.Semaphore$NonfairSync@3135a3f4
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@3135a3f4
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared timer thread" daemon prio=5 Id=74 TIMED_WAITING on java.util.concurrent.Semaphore$NonfairSync@7dcbcbf7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@7dcbcbf7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:756)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1126)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.tryAcquire(Semaphore.java:415)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:244)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared deferred I/O job processor" daemon prio=5 Id=75 WAITING on java.util.concurrent.Semaphore$NonfairSync@7c6f34f2
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@7c6f34f2
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared background cleaner" daemon prio=5 Id=76 WAITING on java.util.concurrent.Semaphore$NonfairSync@ecc1efd
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@ecc1efd
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared stuck transaction monitor" daemon prio=5 Id=77 TIMED_WAITING on java.util.concurrent.Semaphore$NonfairSync@127a36d3
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@127a36d3
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:756)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1126)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.tryAcquire(Semaphore.java:415)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:244)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"EntityStoreSharedAsyncProcessor0" daemon prio=5 Id=78 WAITING on java.util.concurrent.Semaphore$NonfairSync@31cdc318
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@31cdc318
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"EntityStoreSharedAsyncProcessor1" daemon prio=5 Id=79 WAITING on java.util.concurrent.Semaphore$NonfairSync@3400b977
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@3400b977
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Output Stream Monitor for PID 10644 EcommerceApplication" daemon prio=1 Id=80 BLOCKED on java.lang.Class@181d8899 owned by "Output Stream Monitor for PID 9428 EcommerceApplication" Id=83
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2655)
+	-  blocked on java.lang.Class@181d8899
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:120)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:709)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners$$Lambda/0x000001ff0115c210.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@46d0deeb
+
+"Error Stream Monitor for PID 10644 EcommerceApplication" daemon prio=1 Id=81 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@77aa1c47
+
+"Input Stream Monitor for PID 10644 EcommerceApplication" daemon prio=5 Id=82 WAITING on java.lang.Object@699c2cc
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@699c2cc
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:204)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:176)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x000001ff01cfbbd8.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Output Stream Monitor for PID 9428 EcommerceApplication" daemon prio=1 Id=83 RUNNABLE (in native)
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5083)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:112)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:796)
+	-  locked java.lang.Class@181d8899
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@28dc4085
+
+"Error Stream Monitor for PID 9428 EcommerceApplication" daemon prio=1 Id=84 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@2d85b215
+
+"Input Stream Monitor for PID 9428 EcommerceApplication" daemon prio=5 Id=85 WAITING on java.lang.Object@3626277a
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@3626277a
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:204)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:176)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x000001ff01cfbbd8.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Process monitor for PID 9428 EcommerceApplication" daemon prio=5 Id=86 RUNNABLE (in native)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitFor(ProcessImpl.java:575)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:511)
+
+"Process monitor for PID 10644 EcommerceApplication" daemon prio=5 Id=87 RUNNABLE (in native)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitFor(ProcessImpl.java:575)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:511)
+
+"LS-com.genuitec.copilot4eclipse.copilot#dispatcher" prio=5 Id=88 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5838e5c7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5838e5c7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"qtp895943968-89" prio=5 Id=89 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@2d75a070
+	-  locked sun.nio.ch.WEPollSelectorImpl@2d60aad1
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-90" prio=5 Id=90 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@2afa45f0
+	-  locked sun.nio.ch.WEPollSelectorImpl@35739bb5
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-91" prio=5 Id=91 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"qtp895943968-92" prio=5 Id=92 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@1d9bc908
+	-  locked sun.nio.ch.WEPollSelectorImpl@6536ca8e
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-93-acceptor-0@41632a39-ServerConnector@7eac693d{HTTP/1.1, (http/1.1)}{localhost:56264}" prio=3 Id=93 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.Net.accept(Native Method)
+	at java.base@21.0.7/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:433)
+	at java.base@21.0.7/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:409)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:748)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4c314bae
+
+"qtp895943968-94" prio=5 Id=94 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@57750ef0
+	-  locked sun.nio.ch.WEPollSelectorImpl@14e54e9f
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-95" prio=5 Id=95 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"qtp895943968-96" prio=5 Id=96 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Session-HouseKeeper-6adb4f5a-1" prio=5 Id=97 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47d48437
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47d48437
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Worker-10" prio=5 Id=98 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-11" prio=5 Id=99 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-12" prio=5 Id=100 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-13" prio=5 Id=101 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-14" prio=5 Id=102 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-15" prio=5 Id=103 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-16" prio=5 Id=104 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-17" prio=5 Id=105 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-18" prio=5 Id=106 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-19" prio=5 Id=107 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-20" prio=5 Id=108 RUNNABLE
+	at java.base@21.0.7/java.lang.System.lineSeparator(System.java:886)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:116)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-21" prio=5 Id=109 RUNNABLE
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-22" prio=5 Id=110 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-23" prio=5 Id=111 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=112 WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"CompletableFutureDelayScheduler" daemon prio=6 Id=113 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17ecb58
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17ecb58
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Worker-24" prio=5 Id=114 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-25" prio=5 Id=115 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-26" prio=5 Id=116 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Provisioning Event Dispatcher" daemon prio=5 Id=118 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e034709
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e034709
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Thread-21" prio=5 Id=119 TIMED_WAITING
+	at java.base@21.0.7/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.7/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-02-26 15:20:40.817
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-02-26 15:20:40.818
+!MESSAGE Thread that is running the IJobChangeListener: Output Stream Monitor for PID 9428 EcommerceApplication
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5083)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:112)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:796)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:709)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1409)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:698)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:281)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:276)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:826)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:171)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:168)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:256)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+All thread infos: 
+"main" prio=6 Id=1 BLOCKED on java.lang.Class@181d8899 owned by "Output Stream Monitor for PID 9428 EcommerceApplication" Id=83
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:794)
+	-  blocked on java.lang.Class@181d8899
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.computeName(ProcessConsole.java:343)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:626)
+	-  locked org.eclipse.debug.internal.ui.views.console.ProcessConsole@20110864
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.lambda$1(ProcessConsole.java:344)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$$Lambda/0x000001ff01fdbb08.run(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4217)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3330)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	...
+
+"Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.7/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.7/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.7/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@2a5d7192
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@2a5d7192
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.7/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.7/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.7/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=20 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d714143
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d714143
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.7/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+"Notification Thread" daemon prio=9 Id=21 RUNNABLE
+
+"Active Thread: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" prio=5 Id=30 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f7b3a77
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f7b3a77
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Framework Event Dispatcher: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" daemon prio=5 Id=32 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@5e771806
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@5e771806
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Start Level: Equinox Container: cac18aab-ea82-41f6-8e5a-ea9a669d99e3" daemon prio=5 Id=33 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@fe8a26a
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@fe8a26a
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Bundle File Closer" daemon prio=5 Id=35 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1f6723bb
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1f6723bb
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"SCR Component Actor" daemon prio=5 Id=36 WAITING on java.util.LinkedList@282b124d
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.LinkedList@282b124d
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Worker-JM" prio=5 Id=38 WAITING on java.util.ArrayList@5e752dbd
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.ArrayList@5e752dbd
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Worker-0: Process Console Input Job" prio=5 Id=39 WAITING on org.eclipse.ui.console.IOConsoleInputStream@3824b95d
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@3824b95d
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:925)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-1" prio=5 Id=40 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"EMF Reference Cleaner" daemon prio=5 Id=41 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eb1eff1
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eb1eff1
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"Gogo shell" prio=5 Id=44 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@195e2f5f
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@195e2f5f
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"JNA Cleaner" daemon prio=6 Id=47 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@42d9378
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@42d9378
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"Git Repository Closer" daemon prio=6 Id=49 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5b72e403
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5b72e403
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"logback-1" daemon prio=5 Id=50 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3add46fb
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3add46fb
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Java indexing" daemon prio=4 Id=52 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@5211b228
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@5211b228
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x000001ff01807500.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=53 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3a4f4d41
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3a4f4d41
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"ForkJoinPool.commonPool-worker-1" daemon prio=6 Id=55 TIMED_WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=56 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@26eb8e48
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@26eb8e48
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Worker-2" prio=5 Id=58 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-3: Process Console Input Job" prio=5 Id=59 WAITING on org.eclipse.ui.console.IOConsoleInputStream@7934f84f
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@7934f84f
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:925)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-4" prio=5 Id=60 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-5" prio=5 Id=61 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-6" prio=5 Id=62 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-7" prio=5 Id=63 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-8" prio=5 Id=64 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-9: Chat Internal Service" prio=5 Id=65 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3951976d
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3951976d
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at org.eclipse.jetty.util.thread.AutoLock$WithCondition.await(AutoLock.java:126)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.join(QueuedThreadPool.java:822)
+	...
+
+"Stop Language Server Task Processor" prio=6 Id=66 WAITING on java.util.TaskQueue@40de3aec
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.TaskQueue@40de3aec
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.7/java.util.TimerThread.mainLoop(Timer.java:537)
+	at java.base@21.0.7/java.util.TimerThread.run(Timer.java:516)
+
+"ForkJoinPool.commonPool-worker-2" daemon prio=6 Id=67 WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"pool-5-thread-1" prio=5 Id=68 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a3d6571
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a3d6571
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-6-thread-1" prio=5 Id=69 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@641514f9
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@641514f9
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-7-thread-1" prio=5 Id=70 TIMED_WAITING on java.io.PipedInputStream@514a1de9
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.io.PipedInputStream@514a1de9
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.io.PipedInputStream.read(PipedInputStream.java:332)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider.lambda$0(CopilotProcessStreamConnectionProvider.java:169)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider$$Lambda/0x000001ff01b1c9e8.run(Unknown Source)
+	at java.base@21.0.7/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base@21.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@36051d04
+
+"LS-com.genuitec.copilot4eclipse.copilot#listener-0" prio=5 Id=71 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:71)
+	at com.genuitec.copilot4eclipse.copilotapi.lsp.CopilotProcessStreamConnectionProvider$1.read(CopilotProcessStreamConnectionProvider.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.ThreadPoolExecutor$Worker@22c99b84
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@60f24476
+
+"threadJobProcessorPoolSpawner" daemon prio=5 Id=73 WAITING on java.util.concurrent.Semaphore$NonfairSync@3135a3f4
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@3135a3f4
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared timer thread" daemon prio=5 Id=74 TIMED_WAITING on java.util.concurrent.Semaphore$NonfairSync@7dcbcbf7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@7dcbcbf7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:756)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1126)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.tryAcquire(Semaphore.java:415)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:244)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared deferred I/O job processor" daemon prio=5 Id=75 WAITING on java.util.concurrent.Semaphore$NonfairSync@7c6f34f2
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@7c6f34f2
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared background cleaner" daemon prio=5 Id=76 WAITING on java.util.concurrent.Semaphore$NonfairSync@ecc1efd
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@ecc1efd
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Exodus shared stuck transaction monitor" daemon prio=5 Id=77 TIMED_WAITING on java.util.concurrent.Semaphore$NonfairSync@127a36d3
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@127a36d3
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:756)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1126)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.tryAcquire(Semaphore.java:415)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:244)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"EntityStoreSharedAsyncProcessor0" daemon prio=5 Id=78 WAITING on java.util.concurrent.Semaphore$NonfairSync@31cdc318
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@31cdc318
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"EntityStoreSharedAsyncProcessor1" daemon prio=5 Id=79 WAITING on java.util.concurrent.Semaphore$NonfairSync@3400b977
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.Semaphore$NonfairSync@3400b977
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1099)
+	at java.base@21.0.7/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.waitForJobs(JobProcessorQueueAdapter.java:237)
+	at jetbrains.exodus.core.execution.JobProcessorQueueAdapter.doJobs(JobProcessorQueueAdapter.java:149)
+	at jetbrains.exodus.core.execution.ThreadJobProcessor.run(ThreadJobProcessor.java:110)
+	...
+
+"Output Stream Monitor for PID 10644 EcommerceApplication" daemon prio=1 Id=80 BLOCKED on java.lang.Class@181d8899 owned by "Output Stream Monitor for PID 9428 EcommerceApplication" Id=83
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2655)
+	-  blocked on java.lang.Class@181d8899
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:120)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:709)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners$$Lambda/0x000001ff0115c210.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@46d0deeb
+
+"Error Stream Monitor for PID 10644 EcommerceApplication" daemon prio=1 Id=81 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@77aa1c47
+
+"Input Stream Monitor for PID 10644 EcommerceApplication" daemon prio=5 Id=82 WAITING on java.lang.Object@699c2cc
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@699c2cc
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:204)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:176)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x000001ff01cfbbd8.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Output Stream Monitor for PID 9428 EcommerceApplication" daemon prio=1 Id=83 RUNNABLE (in native)
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5083)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:112)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:796)
+	-  locked java.lang.Class@181d8899
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@28dc4085
+
+"Error Stream Monitor for PID 9428 EcommerceApplication" daemon prio=1 Id=84 RUNNABLE (in native)
+	at java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.7/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.7/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@2d85b215
+
+"Input Stream Monitor for PID 9428 EcommerceApplication" daemon prio=5 Id=85 WAITING on java.lang.Object@3626277a
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@3626277a
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:204)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:176)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x000001ff01cfbbd8.run(Unknown Source)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Process monitor for PID 9428 EcommerceApplication" daemon prio=5 Id=86 RUNNABLE (in native)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitFor(ProcessImpl.java:575)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:511)
+
+"Process monitor for PID 10644 EcommerceApplication" daemon prio=5 Id=87 RUNNABLE (in native)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@21.0.7/java.lang.ProcessImpl.waitFor(ProcessImpl.java:575)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:511)
+
+"LS-com.genuitec.copilot4eclipse.copilot#dispatcher" prio=5 Id=88 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5838e5c7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5838e5c7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"qtp895943968-89" prio=5 Id=89 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@2d75a070
+	-  locked sun.nio.ch.WEPollSelectorImpl@2d60aad1
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-90" prio=5 Id=90 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@2afa45f0
+	-  locked sun.nio.ch.WEPollSelectorImpl@35739bb5
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-91" prio=5 Id=91 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"qtp895943968-92" prio=5 Id=92 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@1d9bc908
+	-  locked sun.nio.ch.WEPollSelectorImpl@6536ca8e
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-93-acceptor-0@41632a39-ServerConnector@7eac693d{HTTP/1.1, (http/1.1)}{localhost:56264}" prio=3 Id=93 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.Net.accept(Native Method)
+	at java.base@21.0.7/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:433)
+	at java.base@21.0.7/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:409)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:748)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4c314bae
+
+"qtp895943968-94" prio=5 Id=94 RUNNABLE (in native)
+	at java.base@21.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@57750ef0
+	-  locked sun.nio.ch.WEPollSelectorImpl@14e54e9f
+	at java.base@21.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:181)
+	at org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:188)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+	at org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:542)
+	...
+
+"qtp895943968-95" prio=5 Id=95 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"qtp895943968-96" prio=5 Id=96 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3585cb4b
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:219)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.idleJobPoll(QueuedThreadPool.java:1124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1141)
+	at java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+
+"Session-HouseKeeper-6adb4f5a-1" prio=5 Id=97 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47d48437
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47d48437
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Worker-10" prio=5 Id=98 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-11" prio=5 Id=99 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-12" prio=5 Id=100 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-13" prio=5 Id=101 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-14" prio=5 Id=102 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-15" prio=5 Id=103 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-16" prio=5 Id=104 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-17" prio=5 Id=105 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-18" prio=5 Id=106 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-19" prio=5 Id=107 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-20" prio=5 Id=108 RUNNABLE
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-21" prio=5 Id=109 RUNNABLE
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1788)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-22" prio=5 Id=110 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-23" prio=5 Id=111 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=112 WAITING on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@76d1e4f7
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"CompletableFutureDelayScheduler" daemon prio=6 Id=113 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17ecb58
+	at java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17ecb58
+	at java.base@21.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Worker-24" prio=5 Id=114 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-25" prio=5 Id=115 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-26" prio=5 Id=116 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@1ef82f19
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Provisioning Event Dispatcher" daemon prio=5 Id=118 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e034709
+	at java.base@21.0.7/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e034709
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.7/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Thread-21" prio=5 Id=119 TIMED_WAITING
+	at java.base@21.0.7/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.7/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 15:55:56.742
+!MESSAGE [Error]	[default] Failed to fetch models from CAPI { status: 503, statusText: '' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:43.503
+!MESSAGE [Info]	[fetchCompletions] Request 82be47d3-35d5-4e6a-ab72-f028338224ea at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 667.6804999997839ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:43.690
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:43.690
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:44.067
+!MESSAGE [Info]	[fetchCompletions] Request be94e531-a3ca-4631-a1dd-eeb5a593464e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 348.2970999996178ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:44.322
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:44.329
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:44.341
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:44.933
+!MESSAGE [Info]	[fetchCompletions] Request 7690ff33-45ce-4ed1-b73e-92157f1cf24a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 281.53359999973327ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:45.650
+!MESSAGE [Info]	[fetchCompletions] Request c95e5165-67eb-4f7f-81b4-3ff6bc070469 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 255.6770999999717ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:45.667
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:45.677
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:45.686
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:47.888
+!MESSAGE [Info]	[fetchCompletions] Request 3081599f-614f-4691-8dd6-0c0f9eab1450 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 279.72039999999106ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:48.095
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:48.096
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 15:56:48.102
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:46.706
+!MESSAGE [Info]	[fetchCompletions] Request 8661ce61-a5fc-4238-a8f2-5df3b8543151 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 699.5145000000484ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:47.693
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:47.694
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:47.755
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:54.367
+!MESSAGE [Info]	[fetchCompletions] Request a4a0623f-1c0f-4fb4-934d-2befc13e1d86 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 337.1437999997288ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:54.379
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:54.379
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:19:54.380
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:21.788
+!MESSAGE [Info]	[fetchCompletions] Request 543a8ce0-a1d6-476c-9583-0e118e7f4497 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 299.09889999963343ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:21.913
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:22.002
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:22.002
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:24.807
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 16:20:25.654
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 18:37:09.822
+!MESSAGE [C4E] Internal server stopped: Server@5a87fe36{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 18:37:09.826
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2026-02-26 21:26:08.732 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 21:26:21.662
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-26 21:26:30.105
+!MESSAGE Logback config file: G:\ecommerce-app\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 21:26:56.271
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-26 21:26:56.754
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 21:26:57.032
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 21:27:06.606
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 21:27:06.620
+!MESSAGE [C4E] EdgeDataDir: G:\ecommerce-app\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 21:27:07.524
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 21:27:07.910
+!MESSAGE [C4E] Conversation persistence: G:/ecommerce-app/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-26 21:27:08.017
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 21:27:08.564
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:50612/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 21:27:12.968
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 21:27:18.614
+!MESSAGE [Error]	[lsp] Request conversation/preconditions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-26 21:27:18.646
+!MESSAGE [C4E] API started
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 21:27:26.904
+!MESSAGE [Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. FetchError: getaddrinfo ENOTFOUND copilot-telemetry.githubusercontent.com
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-26 22:05:47.318
+!MESSAGE [Info]	[fetcher] Request to <https://api.individual.githubcopilot.com/models> failed, attempting fallback. Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-26 22:05:47.400
+!MESSAGE [Error]	[lsp] Request copilot/models: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 22:45:51.169
+!MESSAGE [C4E] Internal server stopped: Server@75663279{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-26 22:45:51.171
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2026-02-27 10:11:51.712 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-27 10:11:58.198
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-27 10:12:05.450
+!MESSAGE Logback config file: G:\ecommerce-app\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-27 10:12:20.803
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-27 10:12:21.101
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-27 10:12:21.170
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 10:12:32.821
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 10:12:32.836
+!MESSAGE [C4E] EdgeDataDir: G:\ecommerce-app\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 10:12:36.735
+!MESSAGE [C4E] Conversation persistence: G:/ecommerce-app/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-27 10:12:36.881
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 10:12:38.362
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 10:12:38.468
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:62417/chat
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-27 10:12:41.004
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 10:12:41.822
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 12:12:56.360
+!MESSAGE [C4E] Internal server stopped: Server@4ea2a33c{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 12:12:56.374
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2026-02-27 14:31:11.652 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-27 14:31:19.807
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-27 14:31:29.328
+!MESSAGE Logback config file: G:\ecommerce-app\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-27 14:31:44.437
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-27 14:31:45.052
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-27 14:31:45.246
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 14:31:52.383
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 14:31:52.393
+!MESSAGE [C4E] EdgeDataDir: G:\ecommerce-app\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 14:31:53.278
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 14:31:53.457
+!MESSAGE [C4E] Conversation persistence: G:/ecommerce-app/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-02-27 14:31:53.543
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 14:31:54.050
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:63909/chat
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-02-27 14:31:55.550
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 14:31:58.516
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:19.740
+!MESSAGE [Info]	[fetchCompletions] Request 74d171d0-9233-4872-9278-e32edf4af609 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 855.8919999990612ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:19.751
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:19.752
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:19.758
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:34.065
+!MESSAGE [Info]	[fetchCompletions] Request c74a6f86-408f-42b1-b936-ffc8fda445af at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 600.0712000001222ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:34.154
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:34.155
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:15:34.156
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:09.422
+!MESSAGE [Info]	[fetchCompletions] Request 1c64afab-5daa-429b-8211-f77dc42cc153 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.53580000065267ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:09.507
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:09.508
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:09.508
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:38.749
+!MESSAGE [Info]	[fetchCompletions] Request 9f4ba063-633a-4b10-b994-ba5377b4d66b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.35510000027716ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:38.750
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:38.751
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:16:38.752
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:05.765
+!MESSAGE [Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29)
+    at W4.getToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:156:16) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:05.810
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2026-02-27 17:24:05.814
+!MESSAGE Request getCompletionsCycling failed with message: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:07.842
+!MESSAGE [Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29)
+    at W4.getToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:156:16) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:07.857
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2026-02-27 17:24:07.858
+!MESSAGE Request getCompletionsCycling failed with message: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:11.077
+!MESSAGE [Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29)
+    at W4.getToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:156:16) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:11.084
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2026-02-27 17:24:11.085
+!MESSAGE Request getCompletionsCycling failed with message: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:20.720
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:20.848
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:27.791
+!MESSAGE [Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29)
+    at W4.getToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:156:16) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:27.798
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2026-02-27 17:24:27.799
+!MESSAGE Request getCompletionsCycling failed with message: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:42.842
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:42.890
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:24:44.252
+!MESSAGE [Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20)
+    at apiFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\github.ts:31:22)
+    at fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:228:16)
+    at authFromGitHubSession (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotToken.ts:149:22)
+    at W4.fetchCopilotToken (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\auth\copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:44.252
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-27 17:24:44.252
+!MESSAGE [Error]	[lsp] Request getCompletionsCycling: EditorFetcherError: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+    at C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\editorFeatures\fetcher.ts:143:28
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2026-02-27 17:24:44.252
+!MESSAGE Request getCompletionsCycling failed with message: EditorFetcher request failed: Unsupported request method: copilot/fetch: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:25:10.397
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:25:10.414
+!MESSAGE [Info]	[fetcher] Request to <https://telemetry.individual.githubcopilot.com/telemetry> failed, attempting fallback. FetchError: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND telemetry.individual.githubcopilot.com)
+    at fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at TN.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\lib\src\network\helix.ts:79:22)
+    at Uoe.fetch (C:\Users\Admin\.p2\pool\plugins\com.genuitec.copilot4eclipse.copilotapi_1.7.1.202509041430\copilot-api\agent\src\network\fallbackFetcher.ts:25:20) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:31:50.797
+!MESSAGE [Info]	[fetchCompletions] Request e4e22504-5718-4e67-a6ea-5f1bccf2e8dc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 3334.6862000003457ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:31:50.798
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:31:50.799
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:31:50.799
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:24.065
+!MESSAGE [Info]	[fetchCompletions] Request 38a01374-b983-46af-8f1e-988219916baa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 835.6843999996781ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:24.066
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:24.067
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:24.067
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:40.091
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:40.092
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:40.092
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:40.093
+!MESSAGE [Info]	[fetchCompletions] Request 4f59cb3b-fbec-4323-a75b-32980952d766 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 821.8673000000417ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:41.245
+!MESSAGE [Info]	[fetchCompletions] Request 8b54f220-579c-4897-947f-6adb984b75e6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 514.0460999999195ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:41.246
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:41.247
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:41.247
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:44.847
+!MESSAGE [Info]	[fetchCompletions] Request 7d2854fd-74cc-415e-afea-917cd639ef8b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 852.6418999992311ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:44.848
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:44.848
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:32:44.849
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:33:16.529
+!MESSAGE [Info]	[streamChoices] solution 2 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:33:16.529
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:33:16.530
+!MESSAGE [Info]	[streamChoices] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-27 17:33:16.531
+!MESSAGE [Info]	[fetchCompletions] Request eef238c4-8e62-490c-9018-d0227c951f19 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 550.7719000000507ms
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 18:01:50.082
+!MESSAGE [C4E] Internal server stopped: Server@2a21cec0{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-02-27 18:01:50.085
+!MESSAGE [C4E] Internal server stopped: true

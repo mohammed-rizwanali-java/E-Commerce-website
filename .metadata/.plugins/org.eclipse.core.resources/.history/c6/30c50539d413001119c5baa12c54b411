@@ -1,0 +1,64 @@
+package com.example.ecommerce.service;
+
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.example.ecommerce.config.JwtUtil;
+import com.example.ecommerce.dto.LoginRequest;
+import com.example.ecommerce.dto.RegisterRequest;
+import com.example.ecommerce.entity.Role;
+import com.example.ecommerce.entity.User;
+import com.example.ecommerce.repository.RoleRepository;
+import com.example.ecommerce.repository.UserRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class AuthService {
+
+    private final UserRepository userRepository;
+    private final RoleRepository roleRepository;
+    private final PasswordEncoder passwordEncoder;
+    private final JwtUtil jwtUtil;
+
+    public String register(RegisterRequest request) {
+
+        // 🔥 GET ROLE HERE
+        Role role = roleRepository.findByName("USER")
+                .orElseThrow(() -> new RuntimeException("Role USER not found"));
+
+        User user = User.builder()
+                .name(request.getName())
+                .email(request.getEmail())
+                .password(passwordEncoder.encode(request.getPassword()))
+                .role(role)   // 🔥 SET ROLE HERE
+                .build();
+
+        userRepository.save(user);
+
+        return "User Registered Successfully";
+    }
+
+    public AuthResponse login(LoginRequest request) {
+
+        Authentication authentication = authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(
+                        request.getEmail(),
+                        request.getPassword()
+                )
+        );
+
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+
+        String token = jwtUtil.generateToken(userDetails);
+
+        String role = userDetails.getAuthorities()
+                .stream()
+                .findFirst()
+                .get()
+                .getAuthority();
+
+        return new AuthResponse(token, role, userDetails.getUsername());
+    }
+}

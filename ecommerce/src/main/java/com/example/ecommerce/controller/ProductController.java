@@ -1,0 +1,60 @@
+package com.example.ecommerce.controller;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import com.example.ecommerce.entity.Product;
+import com.example.ecommerce.service.ProductService;
+
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequestMapping("/api/admin/products") // base path for admin
+@RequiredArgsConstructor
+public class ProductController {
+
+    private final ProductService productService;
+//  http://localhost:8080/api/admin/products
+    // GET all products (accessible to everyone)
+    @GetMapping
+    public ResponseEntity<List<Product>> getAllProducts() {
+        List<Product> products = productService.getAllProducts();
+        return ResponseEntity.ok(products);
+    }
+//  http://localhost:8080/api/admin/products
+    // POST add product (only ADMIN)
+    @PreAuthorize("hasRole('ADMIN')")
+    @PostMapping
+    public ResponseEntity<Product> addProduct(@RequestBody Product product) {
+        Product savedProduct = productService.addProduct(product);
+        return new ResponseEntity<>(savedProduct, HttpStatus.CREATED);
+    }
+    
+    // Update Product by ID (Admin only)
+    //http://localhost:8080/api/admin/products/2
+    @PreAuthorize("hasRole('ADMIN')")
+    @PutMapping("/{id}")
+    public Product updateProduct(@PathVariable Long id,
+                                 @RequestBody Product product) {
+        return productService.updateProductById(id, product);
+    }
+    
+    // Delete Product by ID (Admin Only)
+//    http://localhost:8080/api/admin/products/2
+    @PreAuthorize("hasRole('ADMIN')")
+    @DeleteMapping("/{id}")
+    public String deleteProduct(@PathVariable Long id) {
+        productService.deleteProductById(id);
+        return "Product with ID " + id + " deleted successfully.";
+    }
+    
+//    http://localhost:8080/api/admin/products/1
+    @GetMapping("/{id}")
+    public Product getProductById(@PathVariable Long id) {
+        return productService.getProductById(id);
+    }
+}

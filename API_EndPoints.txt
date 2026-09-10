@@ -1,0 +1,44 @@
+1️⃣ Admin API Endpoints
+
+Admin can manage products, categories, users, and orders.
+
+HTTP Method	Endpoint	Description	Access Role
+
+POST	/api/admin/products	Add a new product	ADMIN
+
+GET		/api/admin/products	Get all products	ADMIN
+
+GET		/api/admin/products/{id}	Get product by ID	ADMIN
+
+PUT		/api/admin/products/{id}	Update product	ADMIN
+
+DELETE		/api/admin/products/{id}	Delete product	ADMIN
+
+GET		/api/admin/users	Get all users	ADMIN
+
+GET		/api/admin/users/{id}	Get user by ID	ADMIN
+
+2️⃣ User API Endpoints
+
+Users can browse products, manage their cart, place orders, and view their profile.
+
+HTTP Method	Endpoint	Description	Access Role
+*********************************************
+GET	/api/products	Get all products	USER/ANY
+
+GET	/api/products/{id}	Get product by ID	USER/ANY
+
+POST	/api/cart	Add product to cart	USER
+
+GET	/api/cart	Get user's cart	USER
+
+DELETE	/api/cart/{productId}	Remove product from cart	USER
+
+3️⃣ Authentication Endpoints (for all users)
+
+HTTP Method	Endpoint	Description	Access Role
+
+POST	/api/auth/register	Register new user	Public
+
+POST	/api/auth/login		Login user, get JWT	Public
+
